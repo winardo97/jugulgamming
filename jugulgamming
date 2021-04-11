@@ -3,10 +3,10 @@
 /*
     JNCK MEDIA (c) 2017
     https://github.com/jugulgamming/TelBombV2
-    Made by Dandy Raka
+    Made by jugulgamming
 */
 
-function telkbombv2($no, $jum, $wait = 0)
+function telbombv2($no, $jum, $wait = 0)
 {
     $x      = 1;
     $result = "";
@@ -36,6 +36,6 @@ function telkbombv2($no, $jum, $wait = 0)
     }
     return ($result);
 }
-$execute = telkbombv2('6282xxxxx', '2');
+$execute = telbombv2('6282xxxxx', '2');
 print $execute;
 ?>
